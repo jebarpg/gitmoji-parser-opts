@@ -1,0 +1,31 @@
+{
+  "name": "gitmoji-parser-opts",
+  "version": "1.0.0",
+  "description": "gitmoji styles commit parser options",
+  "bugs": {
+    "url": "https://github.com/jebarpg/gitmoji-parser-opts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jebarpg/gitmoji-parser-opts.git"
+  },
+  "license": "MIT",
+  "author": "jebarpg <jebarpg@gmail.com>",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "father build",
+    "clean": "rm -rf es lib dist build coverage src/.umi* .eslintcache",
+    "cov": "jest --coverage",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@gitmoji/gitmoji-regex": "1.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
